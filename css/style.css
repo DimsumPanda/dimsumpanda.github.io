@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+
+body {
+  background: url("../img/symphony.png");
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+#page {
+  max-width: 940px;
+  min-width: 400px;
+  margin: 2em auto;
+  padding: 1em;
+  /*border: 3px dashed #065D7E;*/
+  background-color: #fff;
+}
+
+h1 {
+  margin: 10px auto;
+  font-family: 'Kaushan Script', cursive;
+  /*font-family: 'Bree Serif', serif*/
+  font-size: 3.5em;
+  /*color:  #065D7E;*/
+  text-align: center;
+  letter-spacing: 0.1em;
+  /*border-bottom: 5px double #065D7E;*/
+}
+
+nav {
+  padding-bottom: 0.5em auto;
+  border-top: 3px double #1793cd;
+  border-bottom: 3px double #1793cd;
+  text-align: center;
+  margin-bottom: 2em;
+  /* float: right; */
+}
+
+address {
+  color: #8a8a8a;
+  float: left;
+}
+
+#email a {
+  float: right;
+  text-align: left;
+  color: #8a8a8a;
+  text-decoration: none;
+}
+
+#email a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+nav li {
+  display: inline;
+  margin: 1em 0.5em;
+}
+
+nav a {
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  padding: 0.5em;
+  }
+
+nav a:hover {
+  color: #00649a;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Kaushan Script', cursive;
+  border-bottom: 1px dashed #00649a;
+}
+
+#education {
+  margin-top: 5em;
+}
+
+h3 {
+  font-weight: 600;
+  color: #00649a;
+  font-size: 1.4em;
+}
+
+h4 + p,
+h3 + p {
+  font-style: italic;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+main a {
+  text-decoration: underline;
+  color: #000;
+}
+
+main a:hover{
+  color: #00649a;
+}
+footer {
+  margin: 3em auto;
+  border-top: 1px solid #000;
+  padding: 2em auto;
+}
+footer a {
+  font-weight: bold;
+  color: #00649a;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #000;
+  text-decoration: underline;
+}
