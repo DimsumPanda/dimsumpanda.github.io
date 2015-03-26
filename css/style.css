@@ -2,8 +2,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
 
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
 
 body {
@@ -92,13 +90,13 @@ h3 {
   font-size: 1.4em;
 }
 
-h4 + p
-h3 + p {
-  font-style: italic;
-}
-
 h4 {
   font-weight: 600;
+}
+
+h3 + p,
+h4 + p {
+  font-style: italic;
 }
 
 main a {
