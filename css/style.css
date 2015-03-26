@@ -92,7 +92,7 @@ h3 {
   font-size: 1.4em;
 }
 
-h4 + p,
+h4 + p
 h3 + p {
   font-style: italic;
 }
