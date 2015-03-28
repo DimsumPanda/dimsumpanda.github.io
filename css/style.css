@@ -86,24 +86,37 @@ h2 {
 }
 
 #education {
-  margin-top: 5em;
+  margin: 0.3em auto;
+}
+#education h2 {
+  margin-top: 3em;
 }
 
 h3 {
   font-weight: 600;
   color: #00649a;
   font-size: 1.2em;
-  line-height: 0.75em;
+  margin-top: 2em auto 0.5em auto;
 }
 
 h4 {
-  font-weight: 600;
+  font-weight: 700;
+  line-height: 0.5em;
+  margin-bottom: 0.7em;
+  margin-top: 1em;
 }
 
-h3 + p,
-h4 + p {
+h3+p,
+h4+p {
   font-style: italic;
 }
+
+h3~p
+{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 
 main a {
   text-decoration: underline;
@@ -112,6 +125,14 @@ main a {
 
 main a:hover{
   color: #00649a;
+}
+
+#skills li {
+  line-height: 1.7em;
+}
+
+#skills li li {
+  line-height: 1.3em;
 }
 footer {
   margin: 3em auto;
