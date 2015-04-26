@@ -52,6 +52,10 @@ a:hover {
   text-decoration: underline;
 }
 
+h1 a:hover{
+  text-decoration: none;
+  color: #000;
+}
 #email a {
   float: right;
   text-align: left;
