@@ -123,20 +123,25 @@ h4+p {
   font-style: italic;
 }
 
+#bio h3
+{
+  text-align: right;
+}
+
 h3~p
 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
-
-main a {
-  text-decoration: underline;
-  color: #000;
+#ContactMe h4{
+  margin-top: 3em;
 }
-
-main a:hover{
-  color: #00649a;
+#ContactMe ul{
+  list-style: none;
+}
+#ContactMe li{
+  line-height: 1.7em;
 }
 
 #skills li {
@@ -161,7 +166,7 @@ figure{
 }
 
 footer {
-  margin: 7em auto 5em auto;
+  margin: 6em auto 5em auto;
   border-top: 3px double #1793cd;
   padding: 2em auto;
 }
