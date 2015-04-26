@@ -106,11 +106,13 @@ h3 {
 
 #bio h2 {
   border: none;
+  line-height: 1em;
 }
 
 #bio h3{
   margin-top: 1em;
 }
+
 h4 {
   font-weight: 700;
   line-height: 0.5em;
@@ -126,6 +128,7 @@ h4+p {
 #bio h3
 {
   text-align: right;
+  margin-top: 1em;
 }
 
 h3~p
