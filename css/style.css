@@ -147,6 +147,10 @@ main a:hover{
   line-height: 1.3em;
 }
 
+#blurb {
+  float: left;
+}
+
 figure{
   float: right;
   width: 200px;
@@ -155,6 +159,7 @@ figure{
   margin: 5px 10px 5px 20px;
   border: 1px solid #eee;
 }
+
 footer {
   margin: 3em auto;
   border-top: 3px double #1793cd;
