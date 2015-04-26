@@ -2,8 +2,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
 
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-
 body {
   background: url("../img/symphony.png");
   font-family: 'Source Sans Pro', sans-serif;
@@ -22,7 +20,7 @@ body {
 
 h1 {
   margin: 10px auto;
-  font-family: 'Kaushan Script', 'Lobster', sans-serif;
+  font-family: 'Kaushan Script', sans-serif;
   /*font-family: 'Bree Serif', serif*/
   font-size: 3.5em;
   /*color:  #065D7E;*/
@@ -47,6 +45,7 @@ nav {
 address {
   float: left;
 }
+
 a:hover {
   color: #00649a;
   text-decoration: underline;
@@ -85,7 +84,7 @@ main {
 }
 
 h2 {
-  font-family: 'Kaushan Script', 'Lobster', sans-serif;
+  font-family: 'Kaushan Script', sans-serif;
   border-bottom: 1px dashed #00649a;
   font-size: 1.75em;
   line-height: 2em;
@@ -147,11 +146,11 @@ main a:hover{
 #skills li li {
   line-height: 1.3em;
 }
-
+/*
 #blurb {
   float: left;
 }
-
+*/
 figure{
   float: right;
   width: 200px;
