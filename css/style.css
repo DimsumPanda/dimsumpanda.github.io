@@ -34,7 +34,6 @@ h1 {
 a{
   text-decoration: none;
   color: #000;
-
 }
 nav {
   padding-bottom: 0.5em auto;
@@ -46,22 +45,23 @@ nav {
 }
 
 address {
-  color: #8a8a8a;
   float: left;
+}
+a:hover {
+  color: #00649a;
+  text-decoration: underline;
 }
 
 #email a {
   float: right;
   text-align: left;
-  color: #8a8a8a;
-  text-decoration: none;
 }
-
+/*
 #email a:hover {
   text-decoration: underline;
   color: #000;
 }
-
+*/
 nav li {
   display: inline;
   margin: 1em 2.5em;
@@ -74,10 +74,7 @@ nav a {
   padding: 0.5em;
   }
 
-nav a:hover {
-  color: #00649a;
-  text-decoration: underline;
-}
+
 
 main {
   line-height: 1em;
