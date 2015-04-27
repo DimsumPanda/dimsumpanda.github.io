@@ -78,6 +78,9 @@ nav a {
   padding: 0.5em;
   }
 
+nav a:active {
+  color: #1793cd;
+}
 
 
 main {
@@ -85,7 +88,7 @@ main {
 }
 
 blockquote{
-  margin: 2em auto;
+  margin: 2em auto 1em auto;
   color: #808080;
 }
 h2 {
@@ -170,7 +173,7 @@ figure{
   width: 200px;
   height: 300px;
   padding: 5px;
-  margin: 5px 10px 5px 20px;
+  margin: 10px 10px 10px 30px;
   border: 1px solid #eee;
 }
 
