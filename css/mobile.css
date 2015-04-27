@@ -16,41 +16,48 @@
   }
 
   h1 {
-    margin: 0.5em auto 1.5em;
+    margin: 0.5em auto 1.4em;
     font-family: 'Kaushan Script', sans-serif;
     font-size: 2em;
     text-align: center;
+
   }
 
-    nav {
+  nav {
       padding: 0em;
       border: none;
       text-align: left;
       margin: 0em;
       border: 1px solid #1793cd;
-    }
+  }
 
-    figure{
+  figure{
       float: none;
-      margin: 0.5em auto;
-    }
+      margin: 2em auto 0em auto;
+  }
 
-    #ContactMe a {
-      color: #00649a;
-      }
-    address {
-      margin: 1em auto;
-      float: none;
-    }
-    #email{
-      padding: 0.5em;
-    }
-    #email a {
-      float: none;
-      color: #00649a;
-    }
-    #education h2 {
-      margin-top: 0.5em;
-    }
+  #ContactMe a {
+    color: #00649a;
+  }
+  address {
+    margin: 1em auto;
+    float: none;
+  }
+  #email{
+    padding: 0.5em;
+  }
+  #email a {
+    float: none;
+    color: #00649a;
+  }
+  #education h2 {
+    margin-top: 0.5em;
+  }
+
+  footer {
+    margin: 5em auto;
+    border-top: 1px solid #1793cd;
+    padding: 2em auto;
+  }
 
 }
