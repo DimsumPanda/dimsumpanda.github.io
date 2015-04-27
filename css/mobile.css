@@ -1,0 +1,56 @@
+/*for my mobile site*/
+@media (max-width: 320px){
+
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: none;
+  }
+
+  #page {
+    max-width: 400px;
+    min-width: 300px;
+    background-color: #fff;
+    padding: 0em;
+  }
+
+  h1 {
+    margin: 0.5em auto 1.5em;
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+
+    nav {
+      padding: 0em;
+      border: none;
+      text-align: left;
+      margin: 0em;
+      border: 1px solid #1793cd;
+    }
+
+    figure{
+      float: none;
+      margin: 0.5em auto;
+    }
+
+    #ContactMe a {
+      color: #00649a;
+      }
+    address {
+      margin: 1em auto;
+      float: none;
+    }
+    #email{
+      padding: 0.5em;
+    }
+    #email a {
+      float: none;
+      color: #00649a;
+    }
+    #education h2 {
+      margin-top: 0.5em;
+    }
+
+}
