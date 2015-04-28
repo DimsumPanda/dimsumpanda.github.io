@@ -23,12 +23,28 @@
 
   }
 
-  nav {
+  #menu {
       padding: 0em;
       border: none;
       text-align: left;
       margin: 0em;
-      border: 1px solid #1793cd;
+      border: none;
+  }
+  #menu li {
+    display: default;
+    margin: 0em;
+  }
+
+  #menu a {
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    padding: 0.5em;
+    }
+
+  a.buttons{
+    text-decoration: none;
+    color: #000;
   }
 
   figure{
@@ -57,7 +73,6 @@
   footer {
     margin: 5em auto;
     border-top: 1px solid #1793cd;
-    padding: 2em;
   }
 
 }

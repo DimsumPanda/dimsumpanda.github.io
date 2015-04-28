@@ -34,15 +34,6 @@ a{
   text-decoration: none;
   color: #000;
 }
-nav {
-  padding-bottom: 0.5em;
-  border-top: 3px double #1793cd;
-  border-bottom: 3px double #1793cd;
-  text-align: center;
-  margin-bottom: 2em;
-  /* float: right; */
-}
-
 address {
   float: left;
 }
@@ -51,6 +42,47 @@ a:hover {
   color: #00649a;
   text-decoration: underline;
 }
+
+#menu {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 3px double #1793cd;
+  border-bottom: 3px double #1793cd;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#menu li {
+  display: inline;
+  margin: 1em 2em;
+}
+
+#menu a {
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  padding: 0.5em;
+  }
+
+#menu a:hover{
+  color: #000;
+  text-decoration: none;
+  background-color: rgba(23, 147, 205, 0.2);
+}
+
+
+a.buttons{
+  text-decoration: none;
+  color: #000;
+}
+
+a.buttons.active{
+  color: #00649a;
+  text-decoration: none;
+  background-color: rgba(23, 147, 205, 0.2);
+}
+
+
 
 h1 a:hover{
   text-decoration: none;
@@ -66,22 +98,6 @@ h1 a:hover{
   color: #000;
 }
 */
-nav li {
-  display: inline;
-  margin: 1em 2.5em;
-}
-
-nav a {
-  font-weight: 700;
-  color: #000;
-  text-decoration: none;
-  padding: 0.5em;
-  }
-
-nav a:active {
-  color: #1793cd;
-}
-
 
 main {
   line-height: 1em;
@@ -168,6 +184,30 @@ h3~p
   float: left;
 }
 */
+
+#prev{
+  font-weight: bold;
+  margin: 1em 2em 1em 2.75em;
+  float: left;
+}
+#next{
+  font-weight: bold;
+  margin: 1em 2em 1em 2em;
+  float: right;
+}
+
+
+#gallery{
+  margin: auto;
+}
+
+#artwork h2{
+  border: none;
+}
+
+#infographics h2{
+  border: none;
+}
 figure{
   float: right;
   width: 200px;
@@ -180,7 +220,6 @@ figure{
 footer {
   margin: 5em auto;
   border-top: 3px double #1793cd;
-  padding: 2em;
 }
 footer a {
   font-weight: bold;
