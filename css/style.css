@@ -35,7 +35,7 @@ a{
   color: #000;
 }
 nav {
-  padding-bottom: 0.5em auto;
+  padding-bottom: 0.5em;
   border-top: 3px double #1793cd;
   border-bottom: 3px double #1793cd;
   text-align: center;
@@ -180,7 +180,7 @@ figure{
 footer {
   margin: 5em auto;
   border-top: 3px double #1793cd;
-  padding: 2em auto;
+  padding: 2em;
 }
 footer a {
   font-weight: bold;
