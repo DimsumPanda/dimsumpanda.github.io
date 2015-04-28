@@ -37,7 +37,7 @@
   }
 
   #ContactMe a {
-    color: #00649a;
+    font-weight: bold;
   }
   address {
     margin: 1em auto;
@@ -48,7 +48,7 @@
   }
   #email a {
     float: none;
-    color: #00649a;
+    font-weight: bold;
   }
   #education h2 {
     margin-top: 0.5em;
