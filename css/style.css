@@ -102,10 +102,6 @@ main {
   line-height: 1em;
 }
 
-blockquote{
-  margin: 2em auto 1em auto;
-  color: #808080;
-}
 h2 {
   font-family: 'Kaushan Script', sans-serif;
   border-bottom: 1px dashed #00649a;
@@ -127,15 +123,6 @@ h3 {
   margin-top: 2em;
 }
 
-#bio h2 {
-  margin-top: 2em;
-  border: none;
-  line-height: 1em;
-}
-
-#bio h3{
-  margin-top: 1em;
-}
 
 h4 {
   font-weight: 700;
@@ -161,16 +148,27 @@ h3~p
   margin-bottom: 0.5em;
 }
 
-#ContactMe h4{
-  margin-top: 2em;
+#bio h3+p{
+  margin-top: 3em;
+  font-style: normal;
 }
+#bio h2 {
+  margin-top: 2em;
+  border: none;
+  line-height: 1em;
+}
+#bio h4{
+  margin-top: 3em;
+  margin-left: 3em;
+}
+
 #ContactMe ul{
   list-style: none;
+  margin-left: 1em;
 }
 #ContactMe li{
   line-height: 1.7em;
 }
-
 #skills li {
   line-height: 1.7em;
 }
@@ -178,11 +176,7 @@ h3~p
 #skills li li {
   line-height: 1.3em;
 }
-/*
-#blurb {
-  float: left;
-}
-*/
+
 
 #prev{
   font-weight: bold;

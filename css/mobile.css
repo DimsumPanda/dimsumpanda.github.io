@@ -30,12 +30,10 @@
       margin: 0em;
       border: none;
   }
-  #menu li {
-    display: default;
-    margin: 0em;
-  }
 
   #menu a {
+    display: default;
+    margin: 0em;
     font-weight: 700;
     color: #000;
     text-decoration: none;
