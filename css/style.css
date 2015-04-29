@@ -34,9 +34,7 @@ a{
   text-decoration: none;
   color: #000;
 }
-address {
-  float: left;
-}
+
 
 a:hover {
   color: #00649a;
@@ -91,12 +89,10 @@ h1 a:hover{
   float: right;
   text-align: left;
 }
-/*
-#email a:hover {
-  text-decoration: underline;
-  color: #000;
+
+address {
+  float: left;
 }
-*/
 
 main {
   line-height: 1em;
@@ -176,6 +172,16 @@ blockquote{
 #ContactMe li{
   line-height: 1.7em;
 }
+
+figure{
+  float: right;
+  width: 200px;
+  height: 300px;
+  padding: 5px;
+  margin: 10px 10px 10px 30px;
+  border: 1px solid #eee;
+}
+
 #skills li {
   line-height: 1.7em;
 }
@@ -219,16 +225,6 @@ blockquote{
 
 #gallery{
   margin: auto;
-}
-
-
-figure{
-  float: right;
-  width: 200px;
-  height: 300px;
-  padding: 5px;
-  margin: 10px 10px 10px 30px;
-  border: 1px solid #eee;
 }
 
 footer {

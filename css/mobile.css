@@ -44,34 +44,29 @@
     color: #000;
   }
 
-  figure{
-      float: none;
-      margin: 2em auto 0em auto;
-  }
-
   #ContactMe a {
     font-weight: bold;
-  }
-  address {
-
-    margin: 3em auto;
-    float: none;
   }
 
   #email a {
     float: none;
     font-weight: bold;
   }
-  #education h2 {
-    margin-top: 0.5em;
+
+  figure{
+      float: none;
+      margin: 2em auto 0em auto;
   }
 
-  #gallery{
-    margin: 5em auto 0em auto;
+  address {
+
+    margin: 3em auto;
+    float: none;
   }
-  #gallery img{
-    width: 100%;
-    height: 80%;
+
+
+  #education h2 {
+    margin-top: 0.5em;
   }
 
   #prev{
@@ -85,6 +80,13 @@
   }
   #next2{
     display: none;
+  }
+  #gallery{
+    margin: 5em auto 0em auto;
+  }
+  #gallery img{
+    width: 100%;
+    height: 80%;
   }
 
 
