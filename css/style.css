@@ -210,18 +210,6 @@ figure{
   float: right;
   font-size: 1.3em;
 }
-#prev2{
-  font-weight: bold;
-  margin: 0em 1em 1em 3.5em;
-  float: left;
-  font-size: 1.3em;
-}
-#next2{
-  font-weight: bold;
-  margin: 0em 3.5em 1em 1em;
-  float: right;
-  font-size: 1.3em;
-}
 
 #gallery{
   margin: auto;
