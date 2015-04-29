@@ -12,7 +12,7 @@ body {
 
 #page {
   max-width: 830px;
-  min-width: 320px;
+  min-width: 500px;
   margin: 1em auto;
   padding: 1em 3em;
   /*border: 3px dashed #065D7E;*/
