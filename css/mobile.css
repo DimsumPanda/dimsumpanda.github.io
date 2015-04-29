@@ -9,7 +9,7 @@
   }
 
   #page {
-    max-width: 400px;
+    max-width: 350px;
     min-width: 300px;
     background-color: #fff;
     padding: 0em;
@@ -56,12 +56,11 @@
     font-weight: bold;
   }
   address {
-    margin: 1em auto;
+
+    margin: 3em auto;
     float: none;
   }
-  #email{
-    padding: 0.5em;
-  }
+
   #email a {
     float: none;
     font-weight: bold;
@@ -69,13 +68,31 @@
   #education h2 {
     margin-top: 0.5em;
   }
+
+  #gallery{
+    margin: 5em auto 0em auto;
+  }
   #gallery img{
     width: 100%;
-    height: 100%;
+    height: 80%;
   }
 
-  footer {
-    margin: 5em auto;
+  #prev{
+    margin: 1em auto 2em 1em;
+  }
+  #next{
+    margin: 1em 1em auto auto;
+  }
+  #prev2{
+    display: none;
+  }
+  #next2{
+    display: none;
+  }
+
+
+footer {
+    margin-top: 2em;
     border-top: 1px solid #1793cd;
   }
 

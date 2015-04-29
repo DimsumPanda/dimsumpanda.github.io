@@ -195,6 +195,16 @@ h3~p
   margin: 1em 2em 1em 2em;
   float: right;
 }
+#prev2{
+  font-weight: bold;
+  margin: 1em 2em 1em 2.75em;
+  float: left;
+}
+#next2{
+  font-weight: bold;
+  margin: 1em 2em 1em 2em;
+  float: right;
+}
 
 
 #gallery{
