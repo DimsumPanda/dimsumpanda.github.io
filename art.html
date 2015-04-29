@@ -7,28 +7,40 @@
         <title>Barbara Poon</title>
         <link href="css/style.css" rel="stylesheet" media="screen" />
         <link href="css/mobile.css" rel="stylesheet" media="screen" />
-        <!-- <link rel="stylesheet" media="screen" href="css/main.css" />--></head>
+        <!-- <link rel="stylesheet" media="screen" href="css/main.css" />-->
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+        <script type="text/javascript">
+            $('#gallery').cycle({
+                fx: 'scrollHorz',
+                next: '#prev',
+                prev: '#next',
+                timeout: 0,
+                rev: true
+            });
+        </script>
+    </head>
 
     <body>
         <div id="page">
             <header>
                  <h1 id="top"><a href ="index.html">Barbara Poon</a></h1>
-
             </header>
-            <nav id="menu"> <a class="buttons" href="index.html">Home</a>
- <a class="buttons" href="projects.html">Infographics</a>
- <a class="buttons active" href="art.html">Art</a>
- <a class="buttons" href="resume.html">Resume</a>
 
+            <nav id="menu"> <a class="buttons" href="index.html">Home</a>
+             <a class="buttons" href="projects.html">Infographics</a>
+             <a class="buttons active" href="art.html">Art</a>
+             <a class="buttons" href="resume.html">Resume</a>
             </nav>
+
             <main>
                 <div id="artwork">
-                     <h2>Barbara's Artworks</h2>
 
-                    <div class="prevNext"> <a id="prev" href="#">Prev</a>
- <a id="next" href="#">Next</a>
+                  <h2>Barbara's Artworks</h2>
 
-                    </div>
+                    <div class="prevNext">
+                      <a id="prev" href="#">Prev</a>
+                      <a id="next" href="#">Next</a></div>
                     <div id="gallery">
                         <img src="img/art/andicry.png" alt="andicry" width="500" height="700">
                         <img src="img/art/timeprint1.png" alt="timeprint1" width="500" height="700">
@@ -43,30 +55,18 @@
                         <img src="img/art/nayib.png" alt="Nayib" width="500" height="700">
                         <img src="img/art/goldfish.png" alt="goldfish" width="500" height="700">
                     </div>
-                    <div class="prevNext"> <a id="prev2" href="#">Prev</a>
- <a id="next2" href="#">Next</a>
-
+                    <div class="prevNext">
+                      <a id="prev2" href="#">Prev</a>
+                      <a id="next2" href="#">Next</a>
                     </div>
                 </div>
             </main>
             <footer>
                 <p><a href="#top">Top</a>
                 </p>
-                <p><small>Last Updated: <time datetime="2015-04-29 12:00">April 29, 2015</time>.</small>
-                    <p>
+                <p><small>Last Updated: <time datetime="2015-04-29 12:00">April 29, 2015</time>.</small></p>
             </footer>
         </div>
-        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-        <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
-        <script type="text/javascript">
-            $('#gallery').cycle({
-                fx: 'scrollHorz',
-                next: '#prev',
-                prev: '#next',
-                timeout: 0,
-                rev: true
-            });
-        </script>
     </body>
 
 </html>
