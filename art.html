@@ -62,19 +62,18 @@
     <p><small>Last Updated: <time datetime="2015-04-29 12:00">April 29, 2015</time>.</small><p>
   </footer>
   </div>
-
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+      $('#gallery').cycle({
+        fx: 'scrollHorz',
+        next: '#prev',
+        prev:'#next',
+        timeout: 0,
+        rev: true
+      });
+    </script>
   </body>
-  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-  <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
-  <script type="text/javascript">
-    $('#gallery').cycle({
-      fx: 'scrollHorz',
-      next: '#prev',
-      prev:'#next',
-      timeout: 0,
-      rev: true
-    });
-  </script>
 
 
 
