@@ -227,9 +227,10 @@ figure{
 }
 
 footer {
-  margin: 5em auto;
+  margin: 5em auto 2em auto;
   border-top: 3px double #1793cd;
 }
+
 footer a {
   font-weight: bold;
   text-decoration: none;
