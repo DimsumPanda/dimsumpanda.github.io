@@ -107,6 +107,7 @@ h2 {
   border-bottom: 1px dashed #00649a;
   font-size: 1.75em;
   line-height: 2em;
+  margin-top: 1.25em;
 }
 
 #education {
@@ -145,7 +146,7 @@ h3~p
 #bio h3
 {
   text-align: right;
-  margin-top: 1em;
+  margin-top: 0.5em;
   color: #000;
 }
 
@@ -160,9 +161,8 @@ blockquote{
   font-style: normal;
 }
 #bio h2 {
-  margin-top: 2em;
   border: none;
-  line-height: 1em;
+  margin-bottom: 1em;
 }
 #bio h4{
   margin-top: 3em;
@@ -184,33 +184,6 @@ blockquote{
   line-height: 1.3em;
 }
 
-
-#prev{
-  font-weight: bold;
-  margin: 1em 2em 1em 2.75em;
-  float: left;
-}
-#next{
-  font-weight: bold;
-  margin: 1em 2em 1em 2em;
-  float: right;
-}
-#prev2{
-  font-weight: bold;
-  margin: 1em 2em 1em 2.75em;
-  float: left;
-}
-#next2{
-  font-weight: bold;
-  margin: 1em 2em 1em 2em;
-  float: right;
-}
-
-
-#gallery{
-  margin: auto;
-}
-
 #artwork h2{
   border: none;
 }
@@ -218,6 +191,37 @@ blockquote{
 #infographics h2{
   border: none;
 }
+
+#prev{
+  font-weight: bold;
+  margin: 0em 1em 1em 3.5em;
+  float: left;
+  font-size: 1.3em;
+}
+#next{
+  font-weight: bold;
+  margin: 0em 3.5em 1em 1em;
+  float: right;
+  font-size: 1.3em;
+}
+#prev2{
+  font-weight: bold;
+  margin: 0em 1em 1em 3.5em;
+  float: left;
+  font-size: 1.3em;
+}
+#next2{
+  font-weight: bold;
+  margin: 0em 3.5em 1em 1em;
+  float: right;
+  font-size: 1.3em;
+}
+
+#gallery{
+  margin: auto;
+}
+
+
 figure{
   float: right;
   width: 200px;
