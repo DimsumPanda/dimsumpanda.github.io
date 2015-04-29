@@ -23,6 +23,9 @@
 
   }
 
+  h2{
+    margin-bottom: 0.5em;
+  }
   #menu {
       padding: 0em;
       border: none;
@@ -70,14 +73,14 @@
   }
 
   #prev{
-    margin: 1em auto 2em 1em;
+    margin: 0.3em auto 0.5em 1em;
   }
   #next{
-    margin: 1em 1em auto auto;
+    margin: 0.3em 1em 0.5em auto;
   }
 
   #gallery{
-    margin: 5em auto 0em auto;
+    margin: 3em 0em 0em 0em;
   }
   #gallery img{
     width: 100%;
