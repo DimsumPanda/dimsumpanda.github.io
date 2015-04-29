@@ -136,16 +136,23 @@ h4+p {
   font-style: italic;
 }
 
-#bio h3
-{
-  text-align: right;
-  margin-top: 1em;
-}
-
 h3~p
 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+#bio h3
+{
+  text-align: right;
+  margin-top: 1em;
+  color: #000;
+}
+
+blockquote{
+  color: #00649a;
+  text-align: center;
+  margin: 1.5em auto 1.5em 0em;
 }
 
 #bio h3+p{
