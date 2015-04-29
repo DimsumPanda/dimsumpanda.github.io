@@ -161,16 +161,15 @@ blockquote{
   margin-bottom: 0em;
 }
 #bio h4{
-  margin-top: 3em;
-  margin-left: 3em;
+  margin-top: 2em;
 }
 
 #ContactMe ul{
   list-style: none;
-  margin-left: 1em;
 }
+
 #ContactMe li{
-  line-height: 1.7em;
+  line-height: 1.5em;
 }
 
 figure{
@@ -178,7 +177,7 @@ figure{
   width: 200px;
   height: 300px;
   padding: 0.5em;
-  margin: 1.5em 1em 1em 3em;
+  margin: 2em 1em 1em 3em;
   border: 1px solid #eee;
 }
 
@@ -199,16 +198,16 @@ figure{
 }
 
 #prev{
-  font-weight: bold;
   margin: 0em 1em 1em 3.5em;
   float: left;
   font-size: 1.3em;
+  text-decoration: none;
 }
 #next{
-  font-weight: bold;
   margin: 0em 3.5em 1em 1em;
   float: right;
   font-size: 1.3em;
+  text-decoration: none;
 }
 
 #gallery{
