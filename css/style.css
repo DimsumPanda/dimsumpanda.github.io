@@ -52,12 +52,11 @@ a:hover {
   margin-bottom: 2em;
 }
 
-#menu li {
-  display: inline;
-  margin: 1em 2em;
-}
+
 
 #menu a {
+  display: inline;
+  margin: 1em 2em;
   font-weight: 700;
   color: #000;
   text-decoration: none;
