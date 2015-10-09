@@ -30,15 +30,20 @@ h1 {
   /*border-bottom: 5px double #065D7E;*/
 }
 
+
 a{
   text-decoration: none;
   color: #000;
 }
 
-
 a:hover {
   color: #00649a;
   text-decoration: underline;
+}
+
+a.download {
+  text-decoration: underline;
+  color: blue;
 }
 
 #menu {
