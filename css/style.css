@@ -15,19 +15,15 @@ body {
   min-width: 400px;
   margin: 1em auto;
   padding: 1em 3em;
-  /*border: 3px dashed #065D7E;*/
   background-color: #fff;
 }
 
 h1 {
   margin: 10px auto;
   font-family: 'Kaushan Script', sans-serif;
-  /*font-family: 'Bree Serif', serif*/
   font-size: 3em;
-  /*color:  #065D7E;*/
   text-align: center;
   letter-spacing: 0.1em;
-  /*border-bottom: 5px double #065D7E;*/
 }
 
 
@@ -44,6 +40,24 @@ a:hover {
 a.download {
   text-decoration: underline;
   color: blue;
+}
+/* ====================================
+  Navigation bar: id="menu" class="topnav"
+ ======================================*/   
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav li {
+  text-align: center;
+  display: inline-block;
+}
+
+ul.topnav li.icon {
+  display: none;
 }
 
 #menu {
