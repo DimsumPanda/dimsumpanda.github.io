@@ -124,7 +124,7 @@ footer {
 
 
 /*for my mobile site*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 350px){
 
   body {
     font-family: 'Source Sans Pro', sans-serif;
