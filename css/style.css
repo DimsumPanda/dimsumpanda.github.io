@@ -1,0 +1,260 @@
+
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+
+body {
+  background: url("../img/symphony.png");
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#page {
+  max-width: 830px;
+  min-width: 400px;
+  margin: 1em auto;
+  padding: 1em 3em;
+  background-color: #fff;
+}
+
+h1 {
+  margin: 10px auto;
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #00649a;
+  text-decoration: underline;
+}
+
+a.download {
+  text-decoration: underline;
+  color: blue;
+}
+/* ====================================
+  Navigation bar: id="menu" class="topnav"
+ ======================================*/   
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav li {
+  text-align: center;
+  display: inline-block;
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+#menu {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 3px double #1793cd;
+  border-bottom: 3px double #1793cd;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+
+
+#menu a {
+  display: inline;
+  margin: 1em 2em;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  padding: 0.5em;
+  }
+
+#menu a:hover{
+  color: #000;
+  text-decoration: none;
+  background-color: rgba(23, 147, 205, 0.2);
+}
+
+
+a.buttons{
+  text-decoration: none;
+  color: #000;
+}
+
+a.buttons.active{
+  color: #00649a;
+  text-decoration: none;
+  background-color: rgba(23, 147, 205, 0.2);
+}
+
+
+
+h1 a:hover{
+  text-decoration: none;
+  color: #000;
+}
+#email a {
+  float: right;
+  text-align: left;
+}
+
+address {
+  float: left;
+}
+
+main {
+  line-height: 1em;
+}
+
+h2 {
+  font-family: 'Kaushan Script', sans-serif;
+  border-bottom: 1px dashed #00649a;
+  font-size: 1.75em;
+  line-height: 2em;
+  margin-top: 1.25em;
+}
+
+#education {
+  margin: 0.3em auto;
+}
+#education h2 {
+  margin-top: 2em;
+}
+
+#ContactMe p {
+  font-style: normal;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+h3 {
+  font-weight: 600;
+  color: #00649a;
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+
+
+h4 {
+  font-weight: 700;
+  line-height: 0.5em;
+  margin-bottom: 0.7em;
+  margin-top: 1em;
+}
+
+h3+p,
+h4+p {
+  font-style: italic;
+}
+
+h3~p
+{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#bio h3
+{
+  text-align: right;
+  margin-top: 0.5em;
+  color: #000;
+}
+
+blockquote{
+  color: #00649a;
+  text-align: center;
+  margin: 1.5em auto 1.5em 0em;
+}
+
+#bio h3+p{
+  margin-top: 4em;
+  font-style: normal;
+}
+#bio h2 {
+  border: none;
+  margin-bottom: 0em;
+}
+#bio blockquote{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#bio p {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+#bio p+p{
+  margin-top: 1em;
+  padding-bottom: 5em;
+}
+
+#ContactMe ul{
+  list-style: none;
+}
+
+#ContactMe li{
+  line-height: 1.5em;
+}
+
+figure{
+  float: right;
+  width: 200px;
+  height: 300px;
+  padding: 0.5em;
+  margin: 2em 1em 1em 3em;
+  border: 1px solid #eee;
+}
+
+#skills li {
+  line-height: 1.7em;
+}
+
+#skills li li {
+  line-height: 1.3em;
+}
+
+#artwork h2{
+  border: none;
+}
+
+#infographics h2{
+  border: none;
+}
+
+#prev{
+  margin: 0em 1em 1em 3.5em;
+  float: left;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+#next{
+  margin: 0em 3.5em 1em 1em;
+  float: right;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#gallery{
+  margin: auto;
+}
+
+footer {
+  margin: 5em auto 2em auto;
+  border-top: 3px double #1793cd;
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+}

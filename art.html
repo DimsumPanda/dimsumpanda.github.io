@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width; initial-scale=1;" />
+        <title>Dimsum Panda</title>
+        <link href="css/style.css" rel="stylesheet" media="screen" />
+        <link href="css/mobile.css" rel="stylesheet" media="screen" />
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+        <script type="text/javascript">
+            $('#gallery').cycle({
+                fx: 'scrollHorz',
+                next: '#next',
+                prev: '#prev',
+                timeout: 0,
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="page">
+            <header>
+                 <h1 id="top"><a href ="index.html">Dimsum Panda</a></h1>
+            </header>
+
+            <ul class="topnav" id="menu">
+                <li><a class="buttons" href="index.html">Home</a></li>
+                <li><a class="buttons active" href="art.html">Art</a></li>
+                <li><a class="buttons" target="_blank" href="http://dimsumpanda.github.io/childMortality/">D3-Project</a></li>
+                <li><a class="buttons" target="_blank" href="http://bl.ocks.org/DimsumPanda">Bl.ocks</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);"onclick="showHamburgerNav()">☰</a>
+                </li>
+            </ul>
+            <main>
+                <div id="artwork">
+
+                  <h2>DimsumPanda's Artworks</h2>
+
+                    <div class="prevNext">
+                      <a id="prev" href="#">Prev</a>
+                      <a id="next" href="#">Next</a></div>
+                    <div id="gallery">
+                        <img src="img/art/andicry.png" alt="andicry" width="500" height="700">
+                        <img src="img/art/goldfish.png" alt="goldfish" width="500" height="700">
+                        <img src="img/art/nayib.png" alt="Nayib" width="500" height="700">
+                        <img src="img/art/rulers.png" alt="rulers" width="500" height="700">
+                        <img src="img/art/stressoftime.png" alt="Stress of Time" width="500" height="700">
+                        <img src="img/art/barqbar.png" alt="barqbar" width="500" height="700">
+                        <img src="img/art/reach.png" alt="reach" width="500" height="700">
+                        <img src="img/art/spring.png" alt="spring" width="500" height="700">
+                        <img src="img/art/summer.png" alt="summer" width="500" height="700">
+                        <img src="img/art/Peach.png" alt="Peach" width="500" height="700">
+                        <img src="img/art/sift.png" alt="sift" width="500" height="700">
+                        <img src="img/art/timeprint1.png" alt="timeprint1" width="500" height="700">
+                        <img src="img/art/still.png" alt="Still Life" width="500" height="700">
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <p><a href="#top">Top</a>
+                </p>
+                <p><small>Last Updated: <time datetime="2015-04-29 12:00">April 29, 2015</time>.</small></p>
+            </footer>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+
+</html>

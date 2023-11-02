@@ -1,0 +1,71 @@
+* {
+  color: #000;
+  background: transparent;
+  font-family: "Times New Roman", serif;
+}
+
+#page {
+  margin: 0.5in;
+}
+body{
+  line-height: 12pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+.linkedin,
+nav,
+footer
+{
+  display: none;
+}
+
+
+h1 {
+  font-size: 30pt;
+  text-align: center;
+  letter-spacing: 0.5pt;
+  border-bottom: 3pt double;
+  padding: 0.2in;
+}
+
+main {
+  line-height: 12pt;
+}
+
+h2 {
+  border-bottom: 1px dashed;
+  font-size: 20pt;
+  line-height: 22pt;
+}
+
+h3, abbr {
+  font-weight: bold;
+  font-size: 16pt;
+  margin-top: 0.25in;
+  margin-bottom: 0.1in;
+}
+
+h4 {
+  font-weight: bold;
+  margin-top: 0.1in;
+  margin-bottom: 0.1in;
+}
+
+h3+p,
+h4~p {
+  font-style: italic;
+  margin-top: 0.1in;
+  margin-bottom: 0.1in;
+}
+
+
+#skills li {
+  line-height: 16pt;
+}
+
+#skills li li {
+  line-height: 16pt;
+}
